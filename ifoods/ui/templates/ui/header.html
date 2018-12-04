@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>ifoods</title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+    {% load staticfiles %}
+        <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-multiselect.css' %}"  >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/w3.css' %}"  >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/webapp.css' %}" >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/wizard.css' %}" >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/skillbar.css' %}" >
+
+    <!-- javascripts -->
+    <script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}" ></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap-multiselect.js' %}" ></script>
+    <script type="text/javascript" src="{% static 'js/wizard.js' %}" ></script>
+    <script type="text/javascript" src="{% static 'js/webapp.js' %}" ></script>
+    <script type="text/javascript" src="{% static 'js/getcurrentlocation.js' %}" ></script>
+    <script type="text/javascript" charset="utf8" src="{% static 'js/bootstrap3-typeahead.min.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR3mV_8uzxqPDOn3uOYwqfWpjAmBr2XyQ&libraries=places" async defer></script>
+
+ </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue-lighter w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">ifoods</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small" >
+       <div class="w3-bar-item">
+            <a href="/#about" class="w3-bar-item w3-button" >About</a>
+       </div>
+      <div class="w3-bar-item">
+        <a href="/#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h-->
+ <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  {% block content %}
+  {% endblock %}
+</div>
+
+</body>
+</html>
