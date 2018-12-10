@@ -1,0 +1,9 @@
+{ 
+  "entries": [ 
+       {"endpoint":"50.18.48.110", 
+          "command": "cat /home/w205/FoodForThought/datasets/open_food_clean_us.csv.gz",
+          "mandatory":true, 
+          "publickey": "AAAAB3NzaC1yc2EAAAABIwAAAQEAqaajeNiGAYYfus8+dRkkNBAdtsGi2iiYqhaoijH9JoLw+H5pJMDJXFIoXjsHzPWLjQytyfN8tUpsGDf054AMj491lKmdjKd5k3qWz5lrpNskLr9S0+2vgP5BBCiIN3egHJ5GFrgbnyGfGYRrkgcUecR/akaaUeXSvt102h1CnqK/KQiuhoAhWiceZ0AMDBIFTL14wFNXOqzhXgBC7UdgPva5BUfVhflMDumFooPKDBq6HRUu6HH8vQb+Cfyd/L3Me9pAJE9fGHsuK71WUh6N/81Lhq+akcZDuzYDmGJ+gJx3RHRDzAPtrvQHkRK19ryGMIeLiPm0F3gH2VnwrWQ1PQ==", 
+          "username": "root"}
+     ] 
+}
